@@ -10,17 +10,41 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
-        
-    <nav class="nav container">
-            <img class="logo" src="images/salon.svg" alt="">
-        <ul>
-            <li class="nav-item"><a href="">Home</a></li>
-            <li class="nav-item"><a href="">About us</a></li>
-            <li class="nav-item"><a href="">Services</a></li>
-            <li class="nav-item"><a href="">Contact Us</a></li>
-            <button class="btn" >Book An Appointment</button>
-        </ul>
-    </nav>
+
+        <nav class="navbar navbar-expand-xl navbar-light bg-light nav">
+                <a class="navbar-brand" href="#">
+                    <img src="images/salon.svg" alt="" width="50" height="50">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto nav-links">
+                    <li class="nav-item active ">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link" href="#">Contact Us</a>
+                      </li>
+                      <li class="nav-item">
+                         <form class="form-inline">
+                            <button class="btn btn-outline-success" type="button">Book an Appointment</button>
+                         </form>
+                    </li>
+                      
+                    </ul>
+                    
+
+
+                </div>
+              </nav>
 
     <div class="header">
         <img class="header-image" src="images/header-resized.png" alt="header">
