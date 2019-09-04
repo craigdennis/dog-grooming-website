@@ -17,6 +17,7 @@ a:hover {
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
 }
 
 
@@ -32,7 +33,7 @@ body {
 
 
 .nav-links {
-    margin-left: 42rem;
+   
 }
 
 .nav-item {
@@ -60,7 +61,7 @@ body {
 }
 
 
-.header-image {
+.image {
     width:100%;
 }
 
