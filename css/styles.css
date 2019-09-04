@@ -32,9 +32,14 @@ body {
 }
 
 
-.nav-links {
-   
+.image {
+    width:100%;
 }
+
+
+/* NAV-BAR */
+
+
 
 .nav-item {
     padding-left: 1.5rem;
@@ -54,27 +59,29 @@ body {
 
 }
 
+
+/* HEADER */
+
+
+
 .header {
     position: relative;
     display: inline-block;
     
 }
 
-
-.image {
-    width:100%;
-}
-
 .header-text {
     background-color: var(--dark-shades);
     color: var(--light-accent);
-    position: absolute;
-    z-index: 999;
     margin: 0 auto;
-    left: -25rem;
-    right: 0;
-    top: 65%; /* Adjust this value to move the positioned div up and down */
     text-align: center;
-    width: 45%; /* Set the width of the positioned div */
+    width: 35%; /* Set the width of the positioned div */
 
+}
+
+
+/* ABOUT US */
+
+.about-us-image {
+    
 }
