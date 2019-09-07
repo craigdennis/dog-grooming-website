@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+h1, h2, h3, h4, h5 {
+    color: var(--dark-shades);
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -71,17 +75,36 @@ body {
 }
 
 .header-text {
-    background-color: var(--dark-shades);
-    color: var(--light-accent);
+    color: var(--dark-shades);
+    background-color: rgba(255, 255, 255, 0.2);
     margin: 0 auto;
     text-align: center;
-    width: 35%; /* Set the width of the positioned div */
+    width: 50%; /* Set the width of the positioned div */
+    font-size: 30px;
+    text-shadow: -1px -1px white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 
 }
+
+/* WELCOME HEADER*/
+
+.welcome-container {
+    margin: 2% 0;
+    text-align: center;
+}
+
+.welcome-image {
+    margin-bottom: 1%;
+    width:5%;
+    text-align: center;
+  
+}
+
 
 
 /* ABOUT US */
 
 .about-us-image {
-    
+    width: 30%;
+    margin: 0 1% 0 1%;
+    border-radius: 5%;
 }
