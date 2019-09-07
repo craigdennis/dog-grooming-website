@@ -103,8 +103,12 @@ body {
 
 /* ABOUT US */
 
+.about-us {
+
+}
+
 .about-us-image {
     width: 30%;
-    margin: 0 1% 0 1%;
+    margin: 0 5% 0 1%;
     border-radius: 5%;
 }
