@@ -130,10 +130,35 @@ hr {
     border-radius: 5%;
 }
 
+/* WHAT WE DO */
+
+.what-we-do {
+    margin: 1%;
+    text-align: justify;
+    margin-bottom: 5%;
+    
+}
+
+.what-we-do-heading {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.what-we-do-header {
+    margin: 3% 0;
+}
+
+
+
 
 
 /* FOOTER CALL TO ACTION */
 
 .cta {
     background-color: var(--dark-shades);
+    height: 10rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--light-accent);
+    padding: 4%;
 }
