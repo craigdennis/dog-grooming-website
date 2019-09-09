@@ -37,6 +37,10 @@ hr {
     color: black;
 }
 
+em {
+    color: var(--light-accent);
+}
+
 
 /* VARIABLES */
 
@@ -150,10 +154,37 @@ hr {
 
 /* GALLERY */
 
+.gallery {
+    margin-top: 2%;
+}
+
 .gallery-image {
     width: 100%;
 
 }
+
+/* TESTIMONALS */
+
+#testimonials {
+    background-color: var(--dark-shades);
+  }
+
+  .testimonials {
+    padding: 7% 15%;
+  }
+  
+  .testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: var(--light-accent);
+  }
+  
+  .testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
 
 
 
