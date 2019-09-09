@@ -186,11 +186,7 @@ em {
   }
   
 
-
-
-
-
-/* FOOTER CALL TO ACTION */
+/* CALL TO ACTION */
 
 .cta {
     background-color: var(--dark-shades);
@@ -198,5 +194,15 @@ em {
     text-align: center;
     font-size: 1.5rem;
     color: var(--light-accent);
+    padding: 4%;
+}
+
+/* FOOTER CALL TO ACTION */
+
+.cta-footer {
+    height: 10rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--dark-shades);
     padding: 4%;
 }
