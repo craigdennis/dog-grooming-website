@@ -26,6 +26,7 @@ body {
 
 footer {
     background-color: var(--dark-shades);
+    color: var(--light-accent);
 }
 
 hr {
@@ -41,6 +42,12 @@ em {
     color: var(--light-accent);
 }
 
+input {
+    margin-bottom: 5%;
+    border-radius: 5px;
+    padding: 1%;
+    width: 75%;
+}
 
 /* VARIABLES */
 
@@ -205,4 +212,8 @@ em {
     font-size: 1.5rem;
     color: var(--dark-shades);
     padding: 4%;
+}
+
+.contact-message {
+    height: 30%;
 }
