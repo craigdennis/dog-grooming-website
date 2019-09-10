@@ -87,6 +87,12 @@ input {
 
 }
 
+.icons {
+    width: 20px;
+    fill: var(--light-accent);
+    margin-right: 5%;
+}
+
 
 /* HEADER */
 
@@ -216,4 +222,12 @@ input {
 
 .contact-message {
     height: 30%;
+}
+
+/* FOOTER */
+
+.footer-address {
+    padding: 0 5%;
+    margin-bottom: 3%;
+
 }
