@@ -27,6 +27,7 @@ body {
 footer {
     background-color: var(--dark-shades);
     color: var(--light-accent);
+    padding-bottom: 5%;
 }
 
 hr {
@@ -230,4 +231,10 @@ input {
     padding: 0 5%;
     margin-bottom: 3%;
 
+}
+
+.social-links {
+    margin-top: 12%;
+    margin-bottom: 7%;
+    width: 30px;
 }
