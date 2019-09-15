@@ -211,6 +211,10 @@ input {
     padding: 4%;
 }
 
+.button-left {
+    margin-left: 3%;
+}
+
 /* FOOTER CALL TO ACTION */
 
 .cta-footer {
