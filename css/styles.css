@@ -80,12 +80,19 @@ input {
     padding: 10px;
     color: var(--light-accent);
     border-color: var(--dark-accent);
-    
+ 
 }
 
 .btn:hover {
     background-color: var(--dark-shades);
+    border: none;
 
+}
+
+
+.alt-btn:hover {
+    background-color: white;
+   
 }
 
 .icons {
